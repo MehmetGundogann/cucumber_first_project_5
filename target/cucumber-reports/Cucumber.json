@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4408511959,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TechGlobalSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 860550042,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user moves to \"Practices\"header dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practices\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TechGlobalSteps.userMovesToHeaderDropdown(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1224285792,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Frontend Testing\"header dropdown option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnHeaderDropdownOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18350458,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2350860500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Pagination\"card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9807125,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8021591084,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate the main content of the Pagination Page",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-the-main-content-of-the-pagination-page",
+        "after": [
+          {
+            "result": {
+              "duration": 81677625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41056208,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see \"Pagination\"heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29322833,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see \"World City Populations 2022\"heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"World City Populations 2022\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24468333,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see \"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\"paragraph",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What are the most populated cities in the world? Here is a list of the top five most populated cities in the world:\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeParagraph(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "TechGlobal Training Functionalities",
+    "description": "",
+    "id": "techglobal-training-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/techGlobal.feature",
+    "tags": []
+  }
+]
