@@ -24,13 +24,13 @@ Feature: TechGlobal Training Functionalities
     And user should see “Next” button is disabled
 
   Scenario: Validate the Pagination Page cities content
-    And user should see “Tokyo” city with info below and an image
+    And user should see city with info below and an image
       | City: Tokyo | Country: Japan | Population: 37,435,191 |
-    And user should see “Delhi” city with info below and an image
+    And user should see city with info below and an image
       | City: Delhi | Country: India | Population: 29,399,141 |
-    And user should see “Shangai” city with info below and an image
+    And user should see city with info below and an image
       | City: Shangai | Country: China | Population: 26,317,104 |
-    And user should see “Sao Paulo” city with info below and an image
+    And user should see city with info below and an image
       | City: Sao Paulo | Country: Brasil | Population: 21,846,507 |
-    And user should see “Mexico City” city with info below and an image
+    And user should see city with info below and an image
       | City: Mexico City | Country: Mexico | Population: 21,671,908 |

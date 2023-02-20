@@ -107,48 +107,57 @@ public class TechGlobalSteps {
         Assert.assertFalse(techGlobalPaginationPage.btnNext.isEnabled());
     }
 
-    @And("user should see “Tokyo” city with info below and an image")
-    public void userShouldSeeTokyoCityWithInfoBelowAndAnImage(DataTable cityInfo) {
-        for(int i = 0; i < cityInfo.asList().size(); i++) {
-            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+    @And("user should see city with info below and an image")
+    public void userShouldSeeCityWithInfoBelowAndAnImage(DataTable data) {
+        for(int i = 0; i < data.asList().size(); i++) {
+            Assert.assertEquals(data.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
         }
         Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
         techGlobalPaginationPage.btnNext.click();
     }
 
-    @And("user should see “Delhi” city with info below and an image")
-    public void userShouldSeeDelhiCityWithInfoBelowAndAnImage(DataTable cityInfo) {
-        for(int i = 0; i < cityInfo.asList().size(); i++) {
-            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
-        }
-        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
-        techGlobalPaginationPage.btnNext.click();
-    }
-
-    @And("user should see “Shangai” city with info below and an image")
-    public void userShouldSeeShangaiCityWithInfoBelowAndAnImage(DataTable cityInfo) {
-        for(int i = 0; i < cityInfo.asList().size(); i++) {
-            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
-        }
-        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
-        techGlobalPaginationPage.btnNext.click();
-    }
-
-    @And("user should see “Sao Paulo” city with info below and an image")
-    public void userShouldSeeSaoPauloCityWithInfoBelowAndAnImage(DataTable cityInfo) {
-        for(int i = 0; i < cityInfo.asList().size(); i++) {
-            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
-        }
-        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
-        techGlobalPaginationPage.btnNext.click();
-    }
-
-    @And("user should see “Mexico City” city with info below and an image")
-    public void userShouldSeeMexicoCityCityWithInfoBelowAndAnImage(DataTable cityInfo) {
-        for(int i = 0; i < cityInfo.asList().size(); i++) {
-            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
-        }
-        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
-        techGlobalPaginationPage.btnNext.click();
-    }
+//    @And("user should see “Tokyo” city with info below and an image")
+//    public void userShouldSeeTokyoCityWithInfoBelowAndAnImage(DataTable cityInfo) {
+//        for(int i = 0; i < cityInfo.asList().size(); i++) {
+//            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+//        }
+//        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
+//        techGlobalPaginationPage.btnNext.click();
+//    }
+//
+//    @And("user should see “Delhi” city with info below and an image")
+//    public void userShouldSeeDelhiCityWithInfoBelowAndAnImage(DataTable cityInfo) {
+//        for(int i = 0; i < cityInfo.asList().size(); i++) {
+//            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+//        }
+//        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
+//        techGlobalPaginationPage.btnNext.click();
+//    }
+//
+//    @And("user should see “Shangai” city with info below and an image")
+//    public void userShouldSeeShangaiCityWithInfoBelowAndAnImage(DataTable cityInfo) {
+//        for(int i = 0; i < cityInfo.asList().size(); i++) {
+//            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+//        }
+//        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
+//        techGlobalPaginationPage.btnNext.click();
+//    }
+//
+//    @And("user should see “Sao Paulo” city with info below and an image")
+//    public void userShouldSeeSaoPauloCityWithInfoBelowAndAnImage(DataTable cityInfo) {
+//        for(int i = 0; i < cityInfo.asList().size(); i++) {
+//            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+//        }
+//        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
+//        techGlobalPaginationPage.btnNext.click();
+//    }
+//
+//    @And("user should see “Mexico City” city with info below and an image")
+//    public void userShouldSeeMexicoCityCityWithInfoBelowAndAnImage(DataTable cityInfo) {
+//        for(int i = 0; i < cityInfo.asList().size(); i++) {
+//            Assert.assertEquals(cityInfo.asList().get(i), techGlobalPaginationPage.cityDetailList.get(i).getText());
+//        }
+//        Assert.assertTrue(techGlobalPaginationPage.cityImage.isDisplayed());
+//        techGlobalPaginationPage.btnNext.click();
+//    }
 }

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4408511959,
+              "duration": 3578615416,
               "status": "passed"
             },
             "line": 4,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 860550042,
+              "duration": 707009750,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1224285792,
+              "duration": 1086538291,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 18350458,
+              "duration": 10436209,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 2350860500,
+              "duration": 1044754375,
               "status": "passed"
             },
             "line": 8,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 9807125,
+              "duration": 21372167,
               "status": "passed"
             },
             "line": 9,
@@ -123,7 +123,7 @@
         "before": [
           {
             "result": {
-              "duration": 8021591084,
+              "duration": 6531371500,
               "status": "passed"
             },
             "match": {
@@ -138,7 +138,7 @@
         "after": [
           {
             "result": {
-              "duration": 81677625,
+              "duration": 83056459,
               "status": "passed"
             },
             "match": {
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41056208,
+              "duration": 20910708,
               "status": "passed"
             },
             "line": 13,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 29322833,
+              "duration": 17175625,
               "status": "passed"
             },
             "line": 14,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 24468333,
+              "duration": 17503750,
               "status": "passed"
             },
             "line": 15,
@@ -207,6 +207,493 @@
         "tags": [
           {
             "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3263012042,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TechGlobalSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 952675292,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user moves to \"Practices\"header dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practices\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TechGlobalSteps.userMovesToHeaderDropdown(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1297200584,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Frontend Testing\"header dropdown option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnHeaderDropdownOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13390000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 784427833,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Pagination\"card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43439459,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4769605125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the Pagination Page Next/Previous buttons",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-the-pagination-page-next/previous-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 79404792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16250500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should see “Previous” button is disabled",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeePreviousButtonIsDisabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14141875,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should see “Next” button is enabled",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeNextButtonIsEnabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1111577958,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on “Next” button",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnNextButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173888083,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see “Previous” button is enabled",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeePreviousButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125308583,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on “Next” button till it becomes disabled",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnNextButtonTillItBecomesDisabled()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7452042,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should see “Previous” button is enabled",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeePreviousButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7521333,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should see “Next” button is disabled",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeNextButtonIsDisabled()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3298697584,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "TechGlobalSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752974833,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user moves to \"Practices\"header dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practices\"",
+                  "offset": 14
+                }
+              ],
+              "location": "TechGlobalSteps.userMovesToHeaderDropdown(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1230332500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Frontend Testing\"header dropdown option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnHeaderDropdownOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12294792,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1036646500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Pagination\"card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagination\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TechGlobalSteps.userClicksOnCard(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20414250,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be navigated to \"https://techglobal-training.netlify.app/frontend/pagination\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/frontend/pagination\"",
+                  "offset": 28
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4744141583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validate the Pagination Page cities content",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-the-pagination-page-cities-content",
+        "after": [
+          {
+            "result": {
+              "duration": 80107125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1310233416,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Tokyo",
+                  "Country: Japan",
+                  "Population: 37,435,191"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245589209,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Delhi",
+                  "Country: India",
+                  "Population: 29,399,141"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64937375,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Shangai",
+                  "Country: China",
+                  "Population: 26,317,104"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92015375,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Sao Paulo",
+                  "Country: Brasil",
+                  "Population: 21,846,507"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60553166,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user should see city with info below and an image",
+            "match": {
+              "location": "TechGlobalSteps.userShouldSeeCityWithInfoBelowAndAnImage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City: Mexico City",
+                  "Country: Mexico",
+                  "Population: 21,671,908"
+                ]
+              }
+            ],
+            "keyword": "And "
           }
         ]
       }
